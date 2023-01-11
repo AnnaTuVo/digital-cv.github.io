@@ -1,0 +1,186 @@
+/* Tablet and under*/
+@media (max-width: 991px) and (min-width: 768px) {
+  .hidden {
+    display: none;
+  }
+  .imgcanhan {
+    flex: 0 1 50px;
+    height: 0;
+  }
+  .image-thong-tin {
+    top: 10%;
+    left: 48%;
+  }
+  section .grid-muctieu-nghenghiep {
+    margin: 0;
+  }
+  .project-grid-lop-1 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .thongtin,
+  .lylich,
+  .chungchi,
+  .duan {
+    flex: 0 1 150px;
+    border-left: 0.5px rgb(219, 217, 217) solid;
+    border-right: 0.5px rgb(219, 217, 217) solid;
+    height: 60px;
+    vertical-align: middle;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 100;
+  }
+
+  #personal-info,
+  #target {
+    padding: 100px 25px 30px 50px;
+  }
+
+  .main-jobinfo {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+  .kn-kn-nn {
+    display: block;
+    columns: 2;
+  }
+  .kn-kn-nn div:first-child {
+    margin-top: 0;
+  }
+
+  .ic-toolbox,
+  .ic-tools-2,
+  .ic-mic,
+  .ic-pencil,
+  .ic-telescope {
+    margin-top: 0;
+  }
+
+  .job-kinh-nghiem {
+    border: 0.5px rgb(210, 208, 208) solid;
+    padding: 25px 20px;
+    align-self: unset;
+    margin: 40px 10px;
+    break-inside: avoid;
+  }
+
+  .so-thich-icon {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .certificate-item,
+  .certificate-item0,
+  .certificate-item1 {
+    display: block;
+  }
+
+  .grid-chung-chi {
+    column-gap: 0px;
+    row-gap: 60px;
+  }
+
+  #img-certificate {
+    width: 100%;
+  }
+  #chungchi-link {
+    padding: 40px 60px 50px 70px;
+  }
+  .certificate-item {
+    padding-right: 15px;
+    margin-top: 20px;
+  }
+  .certificate-item0 {
+    padding-right: 15px;
+  }
+  .certificate-item1 {
+    padding-left: 15px;
+  }
+  .certificate-content {
+    width: 65%;
+  }
+  .tieudechungchi {
+    padding-bottom: 10px;
+  }
+  .kengang-chungchi {
+    width: 84%;
+    top: 430px;
+  }
+  #duan-link {
+    padding: 10px 115px 10px 10px;
+  }
+
+  .project-grid-lop-1 {
+    display: grid;
+    column-gap: 0;
+  }
+
+  .project-grid-lop-3 {
+    height: 100%;
+    border: 0.5px rgb(210, 208, 208) solid;
+    border-top: none;
+  }
+
+  .img-duan1 {
+    width: calc(100% + 4px);
+    margin-left: -2px;
+    margin-right: -2px;
+  }
+
+  .canhan,
+  .cvcanhan {
+    line-height: 25px;
+    height: 7%;
+    border: none;
+    border-top: 0.5px rgb(210, 208, 208) solid;
+  }
+
+  .cvcanhan {
+    padding-top: 15px;
+  }
+
+  .canhan {
+    padding-bottom: 65px;
+    padding-top: 15px;
+  }
+
+  .grid-mota-duan1 {
+    border-right: 0.5px rgb(210, 208, 208) solid;
+    border-left: 0.5px rgb(210, 208, 208) solid;
+    padding: 0;
+    border: none;
+    border-top: 0.5px rgb(210, 208, 208) solid;
+  }
+
+  .project-grid-lop-2 {
+    padding: 15px;
+  }
+  .iconuserblack {
+    grid-column-start: 2;
+    padding-left: 12px;
+  }
+
+  .flex-duan-grid-1 {
+    line-height: 20px;
+    padding-right: 10px;
+    column-gap: 5px;
+    padding-top: 15px;
+    padding-bottom: 70px;
+    border: none;
+    border-top: 0.5px rgb(210, 208, 208) solid;
+  }
+
+  .ten-motaduan,
+  .noidungmota-duan1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .noidungmota-duan1 {
+    padding-right: 5px;
+  }
+
+  .ten-motaduan {
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,199 @@
+/* Tablet and under*/
+@media (max-width: 767px) {
+  #nav-bar a {
+    width: 100%;
+    text-align: left;
+  }
+
+  .hoten {
+    font-size: 25px;
+  }
+
+  .java {
+    font-size: 15px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .image-thong-tin {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: white;
+    font-family: "open_sanslight";
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+
+  nav.containernew {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .thongtin,
+  .lylich,
+  .chungchi,
+  .duan {
+    border-right: none;
+    border-left: none;
+    height: 40px;
+    padding-left: 30px;
+  }
+
+  .imgcanhan {
+    height: 60px;
+  }
+
+  section .grid-muctieu-nghenghiep {
+    margin: 0;
+  }
+
+  .khungemail {
+    padding-bottom: 0;
+  }
+
+  .project-grid-lop-1,
+  .grid-chung-chi,
+  .certificate-item,
+  section .grid-muctieu-nghenghiep {
+    grid-template-columns: 1fr;
+  }
+
+  #target,
+  #personal-info {
+    padding-left: 20px;
+    padding-bottom: 50px;
+  }
+
+  .job-kinh-nghiem {
+    padding-left: 25px;
+  }
+
+  .icon-muctieu-thongtin {
+    padding-bottom: 0;
+  }
+
+  .kn-kn-nn {
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+  }
+
+  .khungviewmore,
+  .khungviewless {
+    width: 25%;
+    vertical-align: middle;
+  }
+
+  section .main-jobinfo {
+    margin-bottom: 0px;
+  }
+
+  .so-thich-icon {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 7px;
+  }
+
+  .so-thich-icon-grid-con-2,
+  .so-thich-icon-grid-con-3 {
+    justify-self: start;
+  }
+
+  .so-thich-icon-grid-con-2 {
+    padding-left: 7px;
+  }
+
+  #chungchi-link {
+    padding: 60px 20px 20px 20px;
+  }
+
+  .section-title-chứng-chỉ {
+    padding-right: 30px;
+  }
+
+  .certificate-item,
+  .certificate-item0,
+  .certificate-item1 {
+    grid-template-columns: 1fr;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .certificate-content {
+    line-height: 20px;
+    padding-bottom: 40px;
+  }
+
+  .tieudechungchi {
+    padding-bottom: 10px;
+  }
+
+  .iconuserblack {
+    grid-column-start: 1;
+  }
+
+  .grid-mota-duan1 {
+    padding: 10px 10px;
+  }
+
+  .canhan,
+  .cvcanhan {
+    line-height: 25px;
+    padding-top: 20px;
+    height: 100%;
+    padding-bottom: 15px;
+  }
+
+  .flex-duan-grid-1 {
+    line-height: 20px;
+    height: 100%;
+    row-gap: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-left: 0.5px rgb(210, 208, 208) solid;
+    border-right: 0.5px rgb(210, 208, 208) solid;
+  }
+
+  .certificate-item0,
+  .certificate-item1 {
+    border-right: none;
+    border-bottom: 1px rgb(244, 149, 24) solid;
+  }
+
+  .kengang-chungchi {
+    display: none;
+  }
+
+  #img-certificate {
+    width: 100%;
+  }
+
+  .social-footer {
+    display: none;
+  }
+
+  section .baduan {
+    padding-bottom: 40px;
+  }
+
+  .project-grid-lop-2 {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+  }
+
+  #duan-link {
+    padding: 10px 20px 10px 20px;
+  }
+
+  #project {
+    margin: 40px 0px 10px 0px;
+  }
+
+  #icon-footer {
+    padding: 40px 70px 50px 70px;
+    gap: 10px;
+  }
+}
